@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <>
         <NavBar />
-        <main className="mx-auto flex min-h-screen flex-col items-center pb-64">
+        <main className="mx-auto flex min-h-screen flex-col items-center">
           <Header />
           <section className="flex min-h-screen w-full flex-col bg-gradient-to-b py-8">
             <article className="flex min-h-[70vh] w-full flex-col items-center gap-4 bg-secondary pt-12 text-center sm:min-h-[60vh]">
@@ -41,7 +41,7 @@ export default function Home() {
               />
             </section>
           </section>
-          <section className="flex w-full flex-col items-center bg-secondary px-[15%] py-8 text-center">
+          <section className="flex w-full flex-col items-center bg-secondary px-[15%] py-16 text-center">
             <h2 className="mb-4 text-3xl font-semibold">My Recent Projects</h2>
             <span className=" text-gray-300">
               Here are the more recent projects I&apos;ve worked on
