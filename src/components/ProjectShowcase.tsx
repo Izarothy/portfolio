@@ -27,10 +27,12 @@ const ProjectShowcase = ({ image, name, description, repo, link }: Props) => {
       <span
         className={`${
           isHovered ? `` : `hidden`
-        } -translate-1/2 absolute left-0 top-0 flex h-full flex-col justify-between px-12 py-4`}
+        } -translate-1/2 absolute left-0 top-0 flex h-full flex-col justify-between px-4 py-4 sm:px-12`}
       >
-        <p className="text-sm lg:text-base">{description}</p>
-        <span className="flex justify-between">
+        <p className="max-h-[75%] overflow-hidden text-sm lg:text-base">
+          {description}
+        </p>
+        <span className="flex justify-center gap-4">
           <a
             className="btn border-secondary hover:bg-secondary"
             target="_blank"
