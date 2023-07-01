@@ -5,6 +5,7 @@ import ProjectShowcase from "~/components/ProjectShowcase";
 import TechnologyCard from "~/components/TechnologyCard";
 import { languages, frameworks, miscellaneous } from "~/data/technologies.json";
 import projects from "~/data/projects.json";
+import Footer from "~/components/Footer";
 
 export default function Home() {
   return (
@@ -52,6 +53,7 @@ export default function Home() {
             </section>
           </section>
         </main>
+        <Footer />
       </>
     </>
   );
