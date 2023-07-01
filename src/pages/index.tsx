@@ -16,7 +16,7 @@ export default function Home() {
         <main className="mx-auto flex min-h-screen flex-col items-center">
           <Header />
           <section className="flex min-h-screen w-full flex-col bg-gradient-to-b py-8">
-            <article className="flex min-h-[60vh] w-full flex-col items-center gap-4 bg-secondary py-4 text-center ">
+            <article className="flex min-h-[60vh] w-full flex-col items-center gap-4 bg-secondary pt-12 text-center ">
               <h2 className="text-3xl font-bold">
                 It&apos;s nice to meet you.
               </h2>
