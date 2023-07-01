@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Head>
         <title>Izaroth - Portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon-16.png" />
       </Head>
       <>
         <NavBar />
