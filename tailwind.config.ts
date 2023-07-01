@@ -7,6 +7,7 @@ export default {
       colors: {
         dark: "#171718",
         secondary: "#1E2A38",
+        cta: "#6C3483",
       },
     },
   },

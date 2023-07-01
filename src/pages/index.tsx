@@ -41,7 +41,7 @@ export default function Home() {
               />
             </section>
           </section>
-          <section className="px-[15%] text-center">
+          <section className="flex w-full flex-col items-center bg-secondary px-[15%] py-8 text-center">
             <h2 className="mb-4 text-3xl font-semibold">My Recent Projects</h2>
             <span className=" text-gray-300">
               Here are the more recent projects I&apos;ve worked on

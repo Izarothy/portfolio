@@ -13,7 +13,7 @@ const ProjectShowcase = ({ image, name, description, repo, link }: Props) => {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <article
-      className="relative rounded-lg border border-gray-800"
+      className="relative rounded-lg"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -22,7 +22,7 @@ const ProjectShowcase = ({ image, name, description, repo, link }: Props) => {
         width={400}
         height={250}
         alt={name}
-        className={`${isHovered ? `opacity-30` : ``} object-cover `}
+        className={`${isHovered ? `opacity-40` : ``} rounded-lg object-cover`}
       />
       <span
         className={`${
@@ -34,7 +34,7 @@ const ProjectShowcase = ({ image, name, description, repo, link }: Props) => {
         </p>
         <span className="flex justify-center gap-4">
           <a
-            className="btn border-secondary hover:bg-secondary"
+            className="btn border-cta hover:bg-cta"
             target="_blank"
             href={link}
           >
