@@ -19,7 +19,7 @@ const ProjectShowcase = ({ image, name, description, repo, link }: Props) => {
     >
       <Image
         src={`/images/${image}`}
-        width={400}
+        width={500}
         height={250}
         alt={name}
         className={`${isHovered ? `opacity-40` : ``} rounded-lg object-cover`}
