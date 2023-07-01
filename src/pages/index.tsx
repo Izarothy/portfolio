@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "~/components/Header";
 import NavBar from "~/components/NavBar";
 import TechnologyCard from "~/components/TechnologyCard";
+import { languages, frameworks, miscellaneous } from "~/data/technologies.json";
 
 export default function Home() {
   return (
@@ -28,9 +29,12 @@ export default function Home() {
               </p>
             </article>
             <section className="relative -top-32 flex min-h-[80vh] justify-between gap-2 px-[15%]">
-              <TechnologyCard title="Languages" technologyList={["asd"]} />
-              <TechnologyCard title="Frameworks" technologyList={["asd"]} />
-              <TechnologyCard title="Miscellaneous" technologyList={["asd"]} />
+              <TechnologyCard title="Languages" technologyList={languages} />
+              <TechnologyCard title="Frameworks" technologyList={frameworks} />
+              <TechnologyCard
+                title="Miscellaneous"
+                technologyList={miscellaneous}
+              />
             </section>
           </section>
         </main>
