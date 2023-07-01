@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="grid h-24 place-items-center bg-slate-900">
+    <footer className="grid h-24 place-items-center bg-gray-950">
       <p>
         <a
           href="https://github.com/Izarothy"
