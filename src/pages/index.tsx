@@ -28,7 +28,7 @@ export default function Home() {
                 and even a FizzBuzz program in ASM.
               </p>
             </article>
-            <section className="relative -top-32 flex min-h-[80vh] justify-between gap-2 px-[15%]">
+            <section className="relative -top-32 flex min-h-[70vh] justify-between gap-2 px-[15%]">
               <TechnologyCard title="Languages" technologyList={languages} />
               <TechnologyCard title="Frameworks" technologyList={frameworks} />
               <TechnologyCard
