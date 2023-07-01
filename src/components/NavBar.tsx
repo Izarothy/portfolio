@@ -5,7 +5,7 @@ import { FaGithub, FaHome } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 const NavBar = () => {
   return (
-    <nav className="sticky top-0 mx-auto flex w-[70%] items-center justify-between pt-8">
+    <nav className="sticky top-0 z-10 flex w-screen items-center justify-between bg-dark px-[15%] py-4">
       <Link href="/">
         <FaHome size={30} />
       </Link>
