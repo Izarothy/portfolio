@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Minecraft Śródziemie",
+    "image": "minecraft-srodziemie.png",
+    "link": "https://minecraft-srodziemie.vercel.app",
+    "repo": "https://github.com/Izarothy/minecraft-srodziemie-web",
+    "description": "A website for my Minecraft server. It generates dynamic pages based on markdown, is written in Next.JS / React."
+  },
+  {
+    "name": "Blog App",
+    "image": "blog-app.png",
+    "link": "https://blog-app-sooty.vercel.app/",
+    "repo": "https://github.com/Izarothy/blog-app",
+    "description": "A template website for a blog. It displays static pages from a CMS dynamically. It also has support for dark mode."
+  },
+  {
+    "name": "Dish Form",
+    "image": "dish-form.png",
+    "link": "https://dish-form.vercel.app/",
+    "repo": "https://github.com/Izarothy/dishes-form",
+    "description": "A dynamic form that used to send a POST request to an external API."
+  },
+  {
+    "name": "Maps API",
+    "image": "maps-api.png",
+    "link": "https://maps-api-three.vercel.app/",
+    "repo": "https://github.com/Izarothy/maps-api",
+    "description": "It consumes the HERE Maps API to show you a path between two points on a leaflet map, calculate the distance, trip cost based on your prices and let you export that as PDF."
+  },
+  {
+    "name": "Sofiofilia",
+    "image": "sofiofilia.png",
+    "link": "https://sofiofilia.vercel.app/",
+    "repo": "https://github.com/Izarothy/Sofiofilia",
+    "description": "A website for my philosopher friend. It has an editorial panel where if you're authorized you can create pages shown on the website."
+  }
+]

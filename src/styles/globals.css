@@ -7,3 +7,9 @@
     @apply overflow-x-hidden bg-dark text-white;
   }
 }
+
+@layer components {
+  .btn {
+    @apply cursor-pointer rounded-lg border-2 bg-transparent px-4 py-1 font-semibold transition;
+  }
+}
