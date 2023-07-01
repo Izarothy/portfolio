@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "~/components/Header";
+import NavBar from "~/components/NavBar";
 
 export default function Home() {
   return (
@@ -8,9 +9,12 @@ export default function Home() {
         <title>Izaroth - Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen flex-col items-center bg-dark text-white">
-        <Header />
-      </main>
+      <>
+        <NavBar />
+        <main className="flex min-h-screen flex-col items-center ">
+          <Header />
+        </main>
+      </>
     </>
   );
 }
