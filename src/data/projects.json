@@ -26,12 +26,5 @@
     "link": "https://maps-api-three.vercel.app/",
     "repo": "https://github.com/Izarothy/maps-api",
     "description": "It consumes the HERE Maps API to show you a path between two points on a leaflet map, calculate the distance, trip cost based on your prices and let you export that as PDF."
-  },
-  {
-    "name": "Sofiofilia",
-    "image": "sofiofilia.png",
-    "link": "https://sofiofilia.vercel.app/",
-    "repo": "https://github.com/Izarothy/Sofiofilia",
-    "description": "A website for my philosopher friend. It has an editorial panel where if you're authorized you can create pages shown on the website."
   }
 ]
