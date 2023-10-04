@@ -1,6 +1,13 @@
 [
   {
     "name": "Minecraft Śródziemie",
+    "image": "marketplace.png",
+    "link": "https://marketplace-nine-bay.vercel.app/",
+    "repo": "https://github.com/Izarothy/marketplace",
+    "description": "Template for a marketplace website."
+  },
+  {
+    "name": "Marketplace",
     "image": "minecraft-srodziemie.png",
     "link": "https://minecraft-srodziemie.vercel.app",
     "repo": "https://github.com/Izarothy/minecraft-srodziemie-web",
