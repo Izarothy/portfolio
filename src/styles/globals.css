@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply overflow-x-hidden bg-dark text-white;
+    @apply overflow-x-hidden scroll-smooth bg-dark text-white;
   }
 }
 

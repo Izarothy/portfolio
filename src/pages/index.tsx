@@ -6,6 +6,7 @@ import TechnologyCard from "~/components/TechnologyCard";
 import { languages, frameworks, miscellaneous } from "~/data/technologies.json";
 import projects from "~/data/projects.json";
 import Footer from "~/components/Footer";
+import Description from "~/components/Description";
 
 export default function Home() {
   return (
@@ -19,20 +20,8 @@ export default function Home() {
         <main className="mx-auto flex min-h-screen flex-col items-center">
           <Header />
           <section className="flex min-h-screen w-full flex-col bg-gradient-to-b py-8">
-            <article className="flex min-h-[70vh] w-full flex-col items-center gap-4 bg-secondary pt-12 text-center sm:min-h-[60vh]">
-              <h2 className="text-3xl font-bold">
-                It&apos;s nice to meet you.
-              </h2>
-              <p className=" max-w-2xl px-8 text-center text-lg text-gray-200 lg:px-0">
-                I started programming in 2021, with a main focus on web
-                development. Since then I&apos;ve created and helped create a
-                few projects ranging from websites / web apps, Discord bots,
-                desktop Electron apps, math libraries, python automation tools
-                and even a FizzBuzz program in ASM. <br /> Most of them can be
-                found on my Github page.
-              </p>
-            </article>
-            <section className="relative -top-32 flex min-h-[70vh] flex-col items-center gap-8 px-[15%] lg:flex-row lg:items-baseline lg:justify-between">
+            <Description />
+            <section className="flex min-h-screen flex-col items-center gap-8 px-[15%] py-8 lg:flex-row lg:items-baseline lg:justify-between">
               <TechnologyCard title="Languages" technologyList={languages} />
               <TechnologyCard title="Frameworks" technologyList={frameworks} />
               <TechnologyCard
