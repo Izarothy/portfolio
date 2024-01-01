@@ -19,7 +19,7 @@ export default function Home() {
         <NavBar />
         <main className="mx-auto flex min-h-screen flex-col items-center">
           <Header />
-          <section className="flex min-h-screen w-full flex-col bg-gradient-to-b py-8">
+          <section className="flex min-h-screen w-full flex-col bg-gradient-to-b">
             <Description />
             <section className="flex min-h-screen flex-col items-center gap-8 px-[15%] py-8 lg:flex-row lg:items-baseline lg:justify-between">
               <TechnologyCard title="Languages" technologyList={languages} />
@@ -32,9 +32,7 @@ export default function Home() {
           </section>
           <section className="flex w-full flex-col items-center bg-secondary px-[15%] py-16 text-center">
             <h2 className="mb-4 text-3xl font-semibold">My Recent Projects</h2>
-            <span className=" text-gray-300">
-              Here are the more recent projects I&apos;ve worked on
-            </span>
+
             <section className="grid grid-cols-1 gap-8 pt-16 xl:grid-cols-2">
               {projects?.map((project) => {
                 return <ProjectShowcase {...project} key={project.name} />;
