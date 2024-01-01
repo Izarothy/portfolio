@@ -9,7 +9,7 @@ const Header = () => {
         width={1170}
         height={780}
         quality={100}
-        className="relative h-full object-cover opacity-50"
+        className="relative h-screen w-full object-cover opacity-50"
         alt="Background"
       />
       <h1 className="absolute text-center text-6xl font-bold">
