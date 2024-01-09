@@ -2,8 +2,6 @@ import Head from "next/head";
 import Header from "~/components/Header";
 import NavBar from "~/components/NavBar";
 import ProjectShowcase from "~/components/ProjectShowcase";
-import TechnologyCard from "~/components/TechnologyCard";
-import { languages, frameworks, miscellaneous } from "~/data/technologies.json";
 import projects from "~/data/projects.json";
 import Footer from "~/components/Footer";
 
@@ -19,14 +17,7 @@ export default function Home() {
         <main className="mx-auto flex min-h-screen flex-col items-center">
           <Header />
           <section className="bg-primary flex min-h-screen w-full flex-col">
-            <section className="flex min-h-screen flex-col items-center gap-8 bg-secondary px-[15%] py-8 lg:flex-row lg:items-baseline lg:justify-between">
-              <TechnologyCard title="Languages" technologyList={languages} />
-              <TechnologyCard title="Frameworks" technologyList={frameworks} />
-              <TechnologyCard
-                title="Miscellaneous"
-                technologyList={miscellaneous}
-              />
-            </section>
+            <section className="flex min-h-screen flex-col items-center gap-8 bg-secondary px-[15%] py-8 lg:flex-row lg:items-baseline lg:justify-between"></section>
           </section>
           <section className="flex w-full flex-col items-center px-[15%] py-16 text-center">
             <h2 className="mb-4 text-3xl font-semibold">My Recent Projects</h2>
