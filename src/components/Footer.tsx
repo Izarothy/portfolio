@@ -1,18 +1,16 @@
 import React from "react";
+import ArrowTopRight from "./icons/ArrowTopRight";
 
 const Footer = () => {
   return (
-    <footer className="grid h-24 place-items-center bg-gray-950">
-      <p>
-        <a
-          href="https://github.com/Izarothy"
-          target="_blank"
-          className="text-blue-700"
-        >
-          Izaroth{" "}
-        </a>
-        - 2023
-      </p>
+    <footer className="mb-8 w-full justify-start">
+      <a
+        href="https://github.com/izarothy/portfolio"
+        target="_blank"
+        className="inline-flex w-full items-center gap-1 hover:text-blue-400"
+      >
+        source <ArrowTopRight />
+      </a>
     </footer>
   );
 };
