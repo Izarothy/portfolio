@@ -6,7 +6,6 @@ import TechnologyCard from "~/components/TechnologyCard";
 import { languages, frameworks, miscellaneous } from "~/data/technologies.json";
 import projects from "~/data/projects.json";
 import Footer from "~/components/Footer";
-import Description from "~/components/Description";
 
 export default function Home() {
   return (
@@ -20,7 +19,6 @@ export default function Home() {
         <main className="mx-auto flex min-h-screen flex-col items-center">
           <Header />
           <section className="bg-primary flex min-h-screen w-full flex-col">
-            <Description />
             <section className="flex min-h-screen flex-col items-center gap-8 bg-secondary px-[15%] py-8 lg:flex-row lg:items-baseline lg:justify-between">
               <TechnologyCard title="Languages" technologyList={languages} />
               <TechnologyCard title="Frameworks" technologyList={frameworks} />
