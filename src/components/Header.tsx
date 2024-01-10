@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -22,6 +23,13 @@ const Header = () => {
           <FaLinkedin size={28} />
         </a>
       </div>
+      <Image
+        src={"/images/header-bg.jpg"}
+        width={700}
+        height={300}
+        alt="Header background"
+        className=" mt-4 object-cover"
+      />
     </header>
   );
 };
