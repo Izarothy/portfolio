@@ -12,7 +12,7 @@ type Props = {
 
 const ProjectCard = ({ image, name, description, link }: Props) => {
   return (
-    <article className="flex gap-2">
+    <article className="flex flex-col gap-2 sm:flex-row">
       <Image
         src={`/images/${image}`}
         width={200}
@@ -20,7 +20,7 @@ const ProjectCard = ({ image, name, description, link }: Props) => {
         alt={name}
         className={`rounded-md object-cover`}
       />
-      <div className={`flex h-full w-full flex-col gap-2 px-4`}>
+      <div className={`flex h-full w-full flex-col gap-2 lg:px-4`}>
         <h3 className="text-left font-semibold hover:text-blue-400">
           <a
             href={link}
